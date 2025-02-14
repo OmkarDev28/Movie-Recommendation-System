@@ -20,8 +20,8 @@ Tech Stack
 License
 - This project is open-source. Feel free to contribute!
 
-- ## Demo  
-[Watch the demo on LinkedIn]([https://www.linkedin.com/posts/your-post-link](https://www.linkedin.com/posts/omkar-ugalmugale-407449313_webdevelopment-datascience-python-activity-7288844732393226241-lxJf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-fIwcBksWIO806y4qiN3KeteVVt2xaPlY))  
+## Demo  
+- [Watch the demo on LinkedIn]([https://www.linkedin.com/posts/your-post-link](https://www.linkedin.com/posts/omkar-ugalmugale-407449313_webdevelopment-datascience-python-activity-7288844732393226241-lxJf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-fIwcBksWIO806y4qiN3KeteVVt2xaPlY))  
 
 ![Screenshot 2025-02-14 212821](https://github.com/user-attachments/assets/1fa697d1-cbb4-433f-8c02-289cdfa61b14)
 ![Screenshot 2025-02-14 212802](https://github.com/user-attachments/assets/38c47239-7087-4e32-be0d-90424865f0eb)
