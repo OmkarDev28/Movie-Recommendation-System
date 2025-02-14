@@ -20,3 +20,6 @@ Tech Stack
 License
 - This project is open-source. Feel free to contribute!
 
+![Screenshot 2025-02-14 212821](https://github.com/user-attachments/assets/1fa697d1-cbb4-433f-8c02-289cdfa61b14)
+![Screenshot 2025-02-14 212802](https://github.com/user-attachments/assets/38c47239-7087-4e32-be0d-90424865f0eb)
+![Screenshot 2025-02-14 212844](https://github.com/user-attachments/assets/d401ba01-0c64-463c-a273-391c79ff80bc)
