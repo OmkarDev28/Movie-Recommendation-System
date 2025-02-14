@@ -1,0 +1,106 @@
+/* Body Styling */
+body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main Title */
+h1 {
+    color: #e0e0e0;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #e53935;
+    padding-bottom: 10px;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* Search Bar Styling */
+.search-bar {
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: #121212;
+}
+
+/* Search Button Styling */
+.search-button {
+    background-color: #e53935;
+    color: #f5f5f5;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effects for Search Button */
+.search-button:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .search-container {
+        padding: 15px 30px;
+    }
+
+    .search-bar {
+        width: 250px;
+    }
+
+    .search-button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .search-container {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 100%;
+        font-size: 1rem;
+    }
+}

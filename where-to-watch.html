@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where to Watch</title>
+    <link rel="stylesheet" href="where-to-watch.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        function openGoogleSearch(event) {
+            if (event.key === 'Enter') {
+                const searchInput = document.querySelector('.search-bar').value; // Get the value from the search bar
+                if (searchInput) {
+                    const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchInput)}`; // Create the Google search URL
+                    window.open(googleSearchUrl, '_blank'); // Open the URL in a new tab
+                } else {
+                    alert("Please enter a valid movie name."); // Alert if no input is provided
+                }
+            }
+        }
+
+        // Event listener to trigger search on Enter key
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchBar = document.querySelector('.search-bar');
+            searchBar.addEventListener('keypress', openGoogleSearch); // Add event listener to search bar
+        });
+    </script>
+</head>
+<body>
+    <h1>Where to Watch</h1>
+    <div class="search-container">
+        <input type="text" placeholder="Enter movie name..." class="search-bar">
+    </div>
+</body>
+</html>
